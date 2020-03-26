@@ -1,3 +1,4 @@
+/* Default styling */
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -6,9 +7,11 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Poppins',serif;
+  font-family: 'Open Sans',serif;
 }
 
+/* End of Default Styling */
+/* Navbar Styles */
 .nav-bar {
   width: 100%;
   display: flex;
@@ -36,7 +39,7 @@ body {
   color: #FF00C1;
   background-color: #fff;
   font-weight: 100;
-  box-shadow: 0px 1px 11px -3px rgba(255,0,193,1);
+  box-shadow: 0px 1px 11px -3px rgba(255, 0, 193, 1);
   transition: all .6s;
 }
 
@@ -49,3 +52,125 @@ body {
 .nav-btn:active {
   transform: translateY(1rem);
 }
+
+/* End of Navbar Styles */
+/* Header Styles */
+
+.header-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 21.9rem;
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 5.28rem;
+  font-weight: 700;
+  font-family: 'Poppins',serif;
+  margin-bottom: 2.5rem;
+  color: #002931;
+}
+
+.header-para {
+  font-size: 2.2rem;
+  width: 42%;
+  margin-top: 0;
+  line-height: 3.2rem;
+  color: #0F3339;
+}
+
+.header-btn {
+  font-size: 2.29rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin: 3.28rem 0;
+  width: 44rem;
+  padding: 2.97rem 0 2.97rem .2rem;
+  border-radius: 5rem;
+  border: .1rem #FF00C1 solid;
+  color: #fff;
+  background-color: #FF00C1;
+  font-weight: 600;
+  box-shadow: 0px 1px 11px -3px rgba(255, 0, 193, 1);
+  transition: all .6s;
+}
+
+.header-btn:hover {
+  border: .1rem #FF00C1 solid;
+  color: #FF00C1;
+  background-color: #fff;
+}
+
+.header-btn:active {
+  transform: translateY(1rem);
+}
+
+.header-img {
+  margin: 8.8rem;
+  width: 71.9%;
+}
+
+.header-count {
+  margin-top: 4.4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.community-number {
+  margin-left: 31rem;
+}
+
+.messages-send {
+  margin-left: 38rem;
+}
+
+
+.ct-img-1 {
+  width: 5.1rem;
+  margin-left: .1rem;
+}
+
+.ct-img-2 {
+  width: 4.55rem;
+  margin-left: .8rem;
+}
+
+.count-header {
+  margin-top: -.5rem;
+  font-size: 10.2rem;
+  margin-bottom: 0;
+  letter-spacing: .1rem;
+  color: #002C33;
+  text-align: center;
+}
+
+.count-para {
+  margin-top: 1.5rem;
+  font-size: 2.5rem;
+  letter-spacing: .1rem;
+  text-align: center;
+  color: #969DA0;
+}
+
+.ct-para-1 {
+  margin-left: .2rem;
+}
+
+.ct-para-2 {
+  margin-top: 1.5rem;
+  margin-left: -3.3rem;
+}
+
+.ct-header-2 {
+  margin-top: .11rem;
+  letter-spacing: .2rem;
+}
+
+
+
+
+/* End of Header Styles */
