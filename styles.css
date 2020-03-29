@@ -7,8 +7,12 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Open Sans',serif;
+  font-family: 'Open Sans', serif;
   background-color: #fff;
+}
+
+h1, h3 {
+  font-family: 'Poppins', serif;
 }
 
 /* End of Default Styling */
@@ -56,7 +60,6 @@ body {
 
 /* End of Navbar Styles */
 /* Header Styles */
-
 .header-section {
   display: flex;
   flex-direction: column;
@@ -69,7 +72,7 @@ body {
 .main-heading {
   font-size: 5.28rem;
   font-weight: 700;
-  font-family: 'Poppins',serif;
+  font-family: 'Poppins', serif;
   margin-bottom: 2.5rem;
   color: #002931;
 }
@@ -129,7 +132,6 @@ body {
   margin-left: 38rem;
 }
 
-
 .ct-img-1 {
   width: 5.1rem;
   margin-left: .1rem;
@@ -147,6 +149,7 @@ body {
   letter-spacing: .1rem;
   color: #002C33;
   text-align: center;
+  font-family: 'Open sans'.serif;
 }
 
 .count-para {
@@ -171,7 +174,91 @@ body {
   letter-spacing: .2rem;
 }
 
+.middle-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12.5rem 0 5rem 0;
+}
 
+.middle-cards {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 30rem;
+}
+
+.middle-cards::before,
+.middle-cards::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  width: 100%;
+}
+
+.middle-heading {
+  font-size: 4.25rem;
+  font-weight: 700;
+  letter-spacing: .1rem;
+  margin-bottom: 0;
+}
+
+.middle-para {
+  font-size: 1.77rem;
+  line-height: 2.6rem;
+  width: 80%;
+  margin-top: 2.5rem;
+  margin-right: 0;
+}
+
+.grow-content {
+  margin-top: 10.5rem;
+  margin-left: 14.2rem;
+  width: 50%;
+}
+
+.grow-card {
+  margin-top: 16.5rem;
+  padding-top: 9.4rem;
+  padding-bottom: 5.7rem;
+  position: relative;
+  background-color: #F6FBFF;
+}
+
+.grow-img-main {
+  width: 79%;
+  margin-left: -1.3rem;
+}
+
+.grow-card::before {
+  background: url('images/bg-section-top-desktop-1.svg') no-repeat top center;
+  background-size: cover;
+  height: 165px;
+  /* top: 0; */
+}
+
+.grow-card::after {
+  background: url('images/bg-section-bottom-desktop-1.svg') no-repeat bottom center;
+  height: 139px;
+  top: 100%;
+  background-size: cover;
+}
+
+.grow-img {
+  width: 50%;
+}
+
+.flowing-card {
+  flex-direction: row-reverse;
+}
+
+.flowing-img-main {
+  width: 79%;
+}
 
 
 /* End of Header Styles */
