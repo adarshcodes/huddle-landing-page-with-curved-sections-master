@@ -188,7 +188,6 @@ h1, h3 {
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
-  margin-bottom: 30rem;
 }
 
 .middle-cards::before,
@@ -205,6 +204,7 @@ h1, h3 {
   font-weight: 700;
   letter-spacing: .1rem;
   margin-bottom: 0;
+  color: #002933;
 }
 
 .middle-para {
@@ -213,6 +213,18 @@ h1, h3 {
   width: 80%;
   margin-top: 2.5rem;
   margin-right: 0;
+  color: #526C6B;
+}
+
+/* curved-card-1 */
+
+.grow-card {
+  margin-top: 16.5rem;
+  padding-top: 9.4rem;
+  padding-bottom: 5.7rem;
+  position: relative;
+  background-color: #F6FBFF;
+  margin-bottom: 30rem;
 }
 
 .grow-content {
@@ -221,24 +233,10 @@ h1, h3 {
   width: 50%;
 }
 
-.grow-card {
-  margin-top: 16.5rem;
-  padding-top: 9.4rem;
-  padding-bottom: 5.7rem;
-  position: relative;
-  background-color: #F6FBFF;
-}
-
-.grow-img-main {
-  width: 79%;
-  margin-left: -1.3rem;
-}
-
 .grow-card::before {
   background: url('images/bg-section-top-desktop-1.svg') no-repeat top center;
   background-size: cover;
   height: 165px;
-  /* top: 0; */
 }
 
 .grow-card::after {
@@ -248,16 +246,75 @@ h1, h3 {
   background-size: cover;
 }
 
-.grow-img {
+.grow-img-main {
+  width: 79%;
+  margin-left: -1.3rem;
+}
+
+.grow-img, .yuser-img {
   width: 50%;
 }
 
+/* curved-card-2 */
+
 .flowing-card {
   flex-direction: row-reverse;
+  margin-bottom: 28.5rem;
+}
+
+.flowing-content {
+  margin: 15rem 0 0 2.5rem;
+  width: 50%;
+}
+
+.flowing-para {
+  width: 82%;
+}
+
+.flowing-img {
+  width: 50%;
+  margin: 5.5rem 0 0 15rem;
 }
 
 .flowing-img-main {
-  width: 79%;
+  width: 82.5%;
+}
+
+/* curved-card-3 */
+
+.yuser-card {
+  position: relative;
+  background-color: #F6FBFF;
+  padding-bottom: 5.3rem;
+  margin-bottom: 30rem;
+}
+
+.yuser-content {
+  margin-top: 15rem;
+  margin-left: 13.2rem;
+  width: 50%;
+}
+
+.yuser-img-main {
+  width: 80%;
+}
+
+.yuser-img {
+  margin-top: 5.5rem;
+  margin-left: -1.3rem;
+}
+
+.yuser-card::before {
+  background: url('images/bg-section-top-desktop-2.svg') no-repeat top center;
+  background-size: cover;
+  height: 165px;
+}
+
+.yuser-card::after {
+  background: url('images/bg-section-bottom-desktop-2.svg') no-repeat bottom center;
+  height: 139px;
+  top: 100%;
+  background-size: cover;
 }
 
 
