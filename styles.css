@@ -61,6 +61,7 @@ h1, h3 {
 /* End of Navbar Styles */
 /* Header Styles */
 .header-section {
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -218,7 +219,6 @@ h1, h3 {
 }
 
 /* curved-card-1 */
-
 .grow-card {
   margin-top: 16.5rem;
   padding-top: 9.4rem;
@@ -257,7 +257,6 @@ h1, h3 {
 }
 
 /* curved-card-2 */
-
 .flowing-card {
   flex-direction: row-reverse;
   margin-bottom: 28.5rem;
@@ -282,7 +281,6 @@ h1, h3 {
 }
 
 /* curved-card-3 */
-
 .yuser-card {
   position: relative;
   background-color: #F6FBFF;
@@ -328,12 +326,155 @@ h1, h3 {
 }
 
 .ready-heading {
-  font-family: 'Poppins',serif;
+  font-family: 'Poppins', serif;
   font-size: 4.35rem;
   margin-left: 1.7rem;
   margin-bottom: .8rem;
   word-spacing: .2rem;
 }
 
-
 /* End of Header Styles */
+/* Footer Section */
+
+.footer {
+  width: 100%;
+  margin-top: 28.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: hsl(192, 100%, 9%);
+  color: #fff;
+  position: relative;
+}
+
+.footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    width: 100%;
+    background: url('images/bg-footer-top-desktop.svg') no-repeat top center;
+    height: 16.8rem;
+    background-size: cover;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 14rem;
+}
+
+.contact-section {
+  margin-left: 13.29rem;
+  width: 50%;
+}
+
+.footer-logo {
+  width: 26.2rem;
+}
+
+.footer-para {
+  width: 50%;
+  font-size: 1.545rem;
+  margin-top: 2.5rem;
+  line-height: 2.7rem;
+  font-weight: 600;
+}
+
+
+.phone, .mail {
+  font-size: 1.75rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-start ;
+  align-items: center;
+}
+
+.phone {
+  margin-top: 2.8rem;
+}
+
+.mail {
+  margin-top: 2.1rem;
+}
+
+.phone img, .mail img {
+  margin-left: .26rem;
+  margin-right: 2.04rem;
+}
+
+.newsletter-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.news-heading {
+  text-transform: uppercase;
+  font-size: 2.47rem;
+  font-family: 'Open Sans',serif;
+  margin: .35rem 0 0 2.3rem;
+  letter-spacing: .1rem;
+}
+
+.news-para {
+  font-size: 1.5rem;
+  width: 53%;
+  margin: 2rem 0 0 2.1rem;
+  line-height: 2.7rem;
+  font-family: 'Open Sans',serif;
+  letter-spacing: .05rem;
+}
+
+.form {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 4.3rem 0 0 2.15rem;
+  color: #fff;
+}
+
+.email-input {
+  outline: none;
+  border: none;
+  width: 33.75rem;
+  height: 5.15rem;
+  margin-right: 2rem;
+  padding-left: 1.5rem;
+  border-radius: .75rem;
+  font-size: 1.7rem;
+}
+
+.subscribe-btn {
+  font-size: 1.78rem;
+  font-weight: 600;
+  font-family: 'Open Sans',serif;
+  width: 17.62rem;
+  height: 5.4rem;
+  border-radius: .5rem;
+  margin-left: 2.4rem;
+  background-color: #FF00C1;
+  color: #fff;
+  transition: all .5s;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.subscribe-btn:hover {
+  background-color: #ED006E;
+  color: #Fff;
+}
+
+
+
+
+
+
+
+
+/* End of footer section */
