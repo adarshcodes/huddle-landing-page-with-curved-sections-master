@@ -622,3 +622,485 @@ h1, h3 {
 }
 
 /* End of footer section */
+/* Responsive Design */
+@media screen and (max-width: 1250px) {
+  .top_logo {
+    width: 20%;
+  }
+
+  .header-para {
+    width: 65%;
+  }
+
+  .header-btn {
+    width: 40rem;
+    font-size: 2rem;
+  }
+
+  .community-number {
+    margin-left: 0;
+  }
+
+  .messages-send {
+    margin-left: 0;
+  }
+
+  .header-count {
+    display: flex;
+    justify-content: space-around;
+    align-items: space-around;
+    flex-wrap: wrap;
+  }
+
+  .count-header {
+    font-size: 8rem;
+  }
+
+  .count-para {
+    font-size: 2rem;
+    margin-left: 0;
+  }
+
+  .grow-content, .flowing-content, .yuser-content {
+    margin-top: 2rem;
+  }
+
+  .grow-content {
+    margin-left: 8rem;
+  }
+
+  .middle-heading {
+    font-size: 4rem;
+    text-align: left;
+  }
+
+  .middle-para {
+    font-size: 1.7rem;
+    width: 90%;
+    text-align: left;
+  }
+
+  .grow-img-main {
+    width: 90%;
+  }
+
+  .flowing-img {
+    margin-left: 8rem;
+  }
+
+  .flowing-img-main {
+    width: 90%;
+  }
+
+  .flowing-content {
+    margin-top: 3.5rem;
+  }
+
+  .yuser-content {
+    margin-top: 2rem;
+  }
+
+  .ready-heading {
+    font-size: 4.35rem;
+  }
+
+  .main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: space-around;
+  }
+
+  .contact-section {
+    margin-left: 8rem;
+  }
+
+  .footer-para {
+    width: 75%;
+  }
+
+  .news-para {
+    width: 70%;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+  }
+
+  .email-input {
+    margin-right: 0;
+  }
+
+  .subscribe-btn {
+    margin-top: 2rem;
+  }
+
+  .social-attribution {
+    margin-left: 9rem;
+  }
+}
+
+@media screen and (max-width: 937px) {
+  .top_logo {
+    width: 30%;
+  }
+
+  .main-heading {
+    margin: 0 3rem;
+    font-size: 4.9rem;
+  }
+
+  .header-para {
+    width: 72%;
+    margin-top: 3.5rem;
+    font-size: 2rem;
+  }
+
+  .header-btn {
+    width: 38rem;
+    font-size: 2.2rem;
+  }
+
+  .header-img {
+    width: 85%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .header-count {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .count-header {
+    font-size: 7rem;
+  }
+
+  .count-para {
+    font-size: 1.8rem;
+  }
+
+  .middle-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+
+  .grow-img, .flowing-img, .yuser-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flowing-img {
+    margin-left: 0;
+  }
+
+  .grow-img-main, .flowing-img-main, .yuser-img-main {
+    width: 80%;
+  }
+
+  .grow-content, .flowing-content, .yuser-content {
+    margin-top: 10rem;
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .middle-para {
+    width: 90%;
+    line-height: 4rem;
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .main-footer {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .newsletter-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 7rem;
+  }
+
+  .news-heading {
+    font-size: 3.7rem;
+  }
+
+  .news-para {
+    width: 73%;
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+
+  .email-input {
+    width: 40.75rem;
+  }
+
+  .contact-section {
+    margin-top: 15rem;
+    margin-left: 10rem;
+    width: 100%;
+  }
+
+  .footer-logo {
+    width: 30rem;
+  }
+
+  .footer-para {
+    width: 80%;
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+
+  .phone, .mail {
+    font-size: 2.2rem;
+  }
+
+  .phone img, .mail img {
+    width: 2.4rem;
+  }
+
+  .social-attribution {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 10.5rem;
+  }
+
+  .attribution {
+    margin-left: 0;
+    margin-top: 3rem;
+  }
+}
+
+@media screen and (max-width: 651px) {
+  .top_logo {
+    width: 32%;
+    padding-left: 3rem;
+  }
+
+  .nav-btn {
+    margin-right: 1rem;
+    font-size: 1rem;
+    width: 9rem;
+  }
+
+  .header-section {
+    padding-top: 14rem;
+  }
+
+  .main-heading {
+    font-size: 2.8rem;
+  }
+
+  .header-para {
+    width: 85%;
+    font-size: 1.8rem;
+  }
+
+  .header-btn {
+    width: 25rem;
+    font-size: 1.5rem;
+    padding: 1.97rem 0 1.6rem .2rem;
+  }
+
+  .header-count {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .count-header {
+    font-size: 4.2rem;
+  }
+
+  .count-para {
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+
+  .ct-img-1 {
+    width: 3rem;
+  }
+
+  .ct-img-2 {
+    width: 3.2rem;
+  }
+
+  .messages-send {
+    margin-top: 5rem;
+  }
+
+  .middle-section {
+    padding-top: 6rem;
+  }
+
+  .grow-card {
+    margin-bottom: 20rem;
+  }
+
+  .grow-card::before {
+    background: url('images/bg-section-top-mobile-1.svg') no-repeat top center;
+    background-size: cover;
+    height: 165px;
+  }
+
+  .grow-card::after {
+    background: url('images/bg-section-bottom-mobile-1.svg') no-repeat bottom center;
+    height: 139px;
+    top: 100%;
+    background-size: cover;
+  }
+
+  .grow-img-main, .flowing-img-main, .yuser-img-main {
+    width: 60%;
+  }
+
+  .middle-heading {
+    font-size: 2.5rem;
+  }
+
+  .middle-para {
+    font-size: 1.5rem;
+    font-weight: 600;
+    line-height: 3rem;
+    width: 83%;
+  }
+
+  .yuser-card {
+    margin-bottom: 20rem;
+  }
+
+  .yuser-card::before {
+    background: url('images/bg-section-top-mobile-2.svg') no-repeat top center;
+    background-size: cover;
+    height: 165px;
+  }
+
+  .yuser-card::after {
+    background: url('images/bg-section-bottom-mobile-2.svg') no-repeat bottom center;
+    height: 139px;
+    top: 100%;
+    background-size: cover;
+  }
+
+  .ready-heading {
+    font-size: 2.8rem;
+  }
+
+  .footer::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 100%;
+    width: 100%;
+    background: url('images/bg-footer-top-mobile.svg') no-repeat top center;
+    height: 16.8rem;
+    background-size: cover;
+  }
+
+  .footer {
+    margin-top: 25rem;
+  }
+
+  .newsletter {
+    width: 100%;
+    margin-left: 2.5rem;
+  }
+
+  .newsletter-section {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .news-heading {
+    font-size: 2rem;
+  }
+
+  .news-para {
+    font-size: 1.2rem;
+    line-height: 2.4rem;
+  }
+
+  .form {
+    margin-left: 4.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+}
+
+.email-input {
+  width: 28rem;
+  height: 4rem;
+}
+
+.subscribe-btn {
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.3rem;
+  margin-left: 17.5rem;
+  margin-top: 1rem;
+}
+
+.contact-section {
+  width: 100%;
+  margin-left: 4rem;
+  margin-top: 12rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-logo {
+  width: 16rem;
+}
+
+.footer-para {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+
+.phone, .mail {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.phone img, .mail img {
+  width: 1.5rem;
+}
+
+.social-attribution {
+  margin-left: 3rem;
+}
+
+.social {
+  font-size: 2.8rem;
+}
+
+.attribution p, .attribution a, {
+  font-size: 1.2rem;
+}
+}
+
+/* End of Responsive Design */
