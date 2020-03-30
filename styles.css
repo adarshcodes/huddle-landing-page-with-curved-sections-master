@@ -29,6 +29,7 @@ h1, h3 {
 .top_logo {
   width: 16.5%;
   padding-left: 8.95rem;
+  animation: toBottom 1.8s;
 }
 
 .nav-btn {
@@ -46,6 +47,7 @@ h1, h3 {
   font-weight: 100;
   box-shadow: 0px 1px 11px -3px rgba(255, 0, 193, 1);
   transition: all .6s;
+  animation: toBottom 1.8s;
 }
 
 .nav-btn:hover {
@@ -76,6 +78,7 @@ h1, h3 {
   font-family: 'Poppins', serif;
   margin-bottom: 2.5rem;
   color: #002931;
+  animation: toRight 1.8s;
 }
 
 .header-para {
@@ -84,6 +87,7 @@ h1, h3 {
   margin-top: 0;
   line-height: 3.2rem;
   color: #0F3339;
+  animation: toLeft 1.8s;
 }
 
 .header-btn {
@@ -102,6 +106,7 @@ h1, h3 {
   box-shadow: 0px 1px 11px -3px rgba(255, 0, 193, 1);
   transition: all .6s;
   word-spacing: .1rem;
+  animation: toTop 1.8s;
 }
 
 .header-btn:hover {
@@ -114,6 +119,76 @@ h1, h3 {
   transform: translateY(1rem);
 }
 
+/* Animations for the header */
+@keyframes toBottom {
+  0% {
+    transform: translateY(-5rem);
+    opacity: 0;
+    transform: rotateZ(180deg);
+  }
+
+  40% {
+    transform: translateY(3rem);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes toTop {
+  0% {
+    transform: translateY(7rem);
+    transform: rotateZ(180deg);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateY(-3rem);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes toRight {
+  0% {
+    transform: translateX(-50rem);
+    transform: rotateZ(180deg);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateX(8rem);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes toLeft {
+  0% {
+    transform: translateX(50rem);
+    transform: rotateZ(180deg);
+    opacity: 0;
+  }
+
+  40% {
+    transform: translateX(-8rem);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* End of animations for heading */
 .header-img {
   margin: 8.8rem;
   width: 71.9%;
@@ -335,7 +410,6 @@ h1, h3 {
 
 /* End of Header Styles */
 /* Footer Section */
-
 .footer {
   width: 100%;
   margin-top: 28.1rem;
@@ -346,17 +420,18 @@ h1, h3 {
   background-color: hsl(192, 100%, 9%);
   color: #fff;
   position: relative;
+  padding-bottom: 11rem;
 }
 
 .footer::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 100%;
-    width: 100%;
-    background: url('images/bg-footer-top-desktop.svg') no-repeat top center;
-    height: 16.8rem;
-    background-size: cover;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 100%;
+  width: 100%;
+  background: url('images/bg-footer-top-desktop.svg') no-repeat top center;
+  height: 16.8rem;
+  background-size: cover;
 }
 
 .main-footer {
@@ -383,12 +458,11 @@ h1, h3 {
   font-weight: 600;
 }
 
-
 .phone, .mail {
   font-size: 1.75rem;
   font-weight: 600;
   display: flex;
-  justify-content: flex-start ;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -416,7 +490,7 @@ h1, h3 {
 .news-heading {
   text-transform: uppercase;
   font-size: 2.47rem;
-  font-family: 'Open Sans',serif;
+  font-family: 'Open Sans', serif;
   margin: .35rem 0 0 2.3rem;
   letter-spacing: .1rem;
 }
@@ -426,7 +500,7 @@ h1, h3 {
   width: 53%;
   margin: 2rem 0 0 2.1rem;
   line-height: 2.7rem;
-  font-family: 'Open Sans',serif;
+  font-family: 'Open Sans', serif;
   letter-spacing: .05rem;
 }
 
@@ -452,7 +526,7 @@ h1, h3 {
 .subscribe-btn {
   font-size: 1.78rem;
   font-weight: 600;
-  font-family: 'Open Sans',serif;
+  font-family: 'Open Sans', serif;
   width: 17.62rem;
   height: 5.4rem;
   border-radius: .5rem;
@@ -470,11 +544,81 @@ h1, h3 {
   color: #Fff;
 }
 
+.social-attribution {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 6.6rem 0 0 13.2rem;
+}
 
+.social {
+  margin-right: 2.45rem;
+  cursor: pointer;
+  font-size: 4rem;
+  color: #fff;
+  transition: transform .3s;
+}
 
+.social:hover {
+  transform: rotateZ(360deg);
+}
 
+.facebook:hover {
+  color: #3b5998;
+}
 
+.twitter:hover {
+  color: #00acee;
+}
 
+.instagram:hover {
+  background-image: linear-gradient(to right bottom, #8134af, #992ea7, #ae289e, #bf2394, #ce238a, #e0317e, #ed4472, #f75868, #ff7a5f, #ff9b5c, #ffbb64, #feda77);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 
+.attribution {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  word-spacing: .5rem;
+  margin-left: 5rem;
+}
+
+.attribution p {
+  font-size: 1.4rem;
+  font-family: 'Open Sans', serif;
+  color: #fff;
+  font-weight: 600;
+}
+
+.attribution a {
+  font-family: 'Open Sans', serif;
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: 500;
+  color: #fff;
+  transition: color .5s;
+  font-weight: 600;
+}
+
+.attribution .icon {
+  font-size: 1.8rem;
+  transition: all .2s;
+  cursor: pointer;
+}
+
+.ico1 {
+  color: #4D555A;
+}
+
+.ico2 {
+  color: #E14557;
+}
+
+.icon:hover {
+  transform: rotateZ(360deg);
+}
 
 /* End of footer section */
