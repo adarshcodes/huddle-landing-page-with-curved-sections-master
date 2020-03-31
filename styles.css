@@ -108,7 +108,7 @@ h1, h3 {
   border: .1rem #FF00C1 solid;
   color: #fff;
   background-color: #FF00C1;
-  font-weight: 600;
+  font-weight: 700;
   box-shadow: 0px 1px 11px -3px rgba(255, 0, 193, 1);
   transition: all .6s;
   word-spacing: .1rem;
@@ -231,6 +231,7 @@ h1, h3 {
   margin: .9rem 0 0 .65rem;
   font-size: 2.22rem;
   letter-spacing: .1rem;
+  color: #7E8386;
 }
 
 .messages-send {
@@ -298,7 +299,7 @@ h1, h3 {
   margin-right: 0;
   margin-left: -.6rem;
   font-weight: 500;
-  color: #526C6B;
+  color: #143733;
 }
 
 /* curved-card-1 */
@@ -553,7 +554,7 @@ h1, h3 {
 
 .subscribe-btn {
   font-size: 1.64rem;
-  font-weight: 600;
+  font-weight: 700;
   font-family: 'Open Sans', serif;
   width: 16rem;
   height: 4.8rem;
